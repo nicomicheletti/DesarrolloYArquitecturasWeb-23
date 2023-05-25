@@ -11,6 +11,10 @@ Creación del primer archivo HTML, index.html
 
 ### Semana 3
 Creación nuevo archivo HTML. En esta oportunidad empleareamos un mejor uso de las etiquetas para mejorar la estructura.
+
+### Semana 4
+Creación de otro archivo HTML simulando un portal de noticias. En esta oportunidad empleareamos CSS para darle estilo y mejorar el aspecto visual de la misma.
+
 ### Autor
 
  Nombre  | Mail | Github | Rol
