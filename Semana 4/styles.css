@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+
+    header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(139, 84, 84);
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  /* Style the top navigation bar */
+ #nav-bar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .menu-navbar a  {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .menu-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+#left-column {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+#right-column {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+
+  .img-n1{
+    background-color: #aaa;
+    width:max-content;
+    padding: 5px;
+
+  }
