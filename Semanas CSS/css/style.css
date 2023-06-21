@@ -1,0 +1,125 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(105, 105, 105);
+}
+  
+.topnav a {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  color: #da7676;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(161, 83, 83);
+  }
+
+.column {
+  float: left;
+  padding: 10px;
+}
+  
+.column.side {
+  width: 25%;
+}
+  
+.column.middle {
+  width: 50%;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+  width: 100%;
+  }
+}
+
+.img1 {
+  max-width: 100%;
+}
+
+figcaption {
+  background-color: grey;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 45, 49);
+  max-width: 100%;
+  justify-content: center;
+}
+
+.flex-container > div {
+  display: flex;  
+  background-color: #c26c6c;
+  max-width: 100%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 5px;
+}
+
+ul{
+  display: none;
+}
+  
+input:checked  ~ ul{
+  display: block;
+}  
+
+input {
+  display: none;
+}
+  
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+  
+label:hover{
+  background: grey;
+}
+  
+input:checked ~ label {
+  background: lightgrey; 
+}
+  
+ul{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+}
