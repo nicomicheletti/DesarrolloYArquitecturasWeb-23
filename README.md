@@ -15,6 +15,8 @@ Creación nuevo archivo HTML. En esta oportunidad empleareamos un mejor uso de l
 ### Clases CSS
 Aplicando lo aprendido respecto a CSS, vamos a darle estilo a una página de noticias responsive y haciendo uso de flexbox.
 
+### Ejercicios JS
+En esta oportunidad realizamos diversos ejercicios para poner en práctica lo aprendido en JS.
 ### Autor
 
  Nombre  | Mail | Github | Rol
