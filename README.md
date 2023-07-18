@@ -17,6 +17,9 @@ Aplicando lo aprendido respecto a CSS, vamos a darle estilo a una página de not
 
 ### Ejercicios JS
 En esta oportunidad realizamos diversos ejercicios para poner en práctica lo aprendido en JS.
+
+### Clases JS
+En las últimas semanas trabajamos con JS creando un formulario de suscripción e interactuando con el DOM.
 ### Autor
 
  Nombre  | Mail | Github | Rol
